@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  color: dimgray;
+  line-height: 1.5;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700;
+}
+
+nav .nav-link {
+  color: lightgray;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav .nav-link:hover,
+nav .nav-link.active {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
+main.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid dodgerblue;
+  padding-bottom: 0.5rem;
+  color: dodgerblue;
+}
+
+.img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+form#submitForm {
+  background: whitesmoke;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form#submitForm input,
+form#submitForm textarea {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 0.4rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form#submitForm input:focus,
+form#submitForm textarea:focus {
+  border-color: dodgerblue;
+  outline: none;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+form#submitForm button {
+  background: dodgerblue;
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 0.6rem;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form#submitForm button:hover {
+  background: mediumblue;
+}
+
+footer {
+  background: black;
+  color: silver;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}

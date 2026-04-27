@@ -1,0 +1,19 @@
+Tags used;
+HTML:
+<head> <meta> <link> <script> <title> <style> <body> <header> <h1> <nav> <ul> <li> <a> <main> <section>
+ <h2> <img> <p> <strong> <ul> <li> <table> <thead> <tr> <th> <tbody> <td> <form> <div> <label> <input> <textarea> <button> <footer><head>
+  <meta> <link> <script> <title> <style> <body> <header> <h1> <nav> <ul> <li> <a> <main> <section> <h2> <img> <p> <strong> <ul> <li> <table>
+  <thead> <tr> <th> <tbody> <td> <form> <div> <label> <input> <textarea> <button> <footer>
+Css:
+body, header, header h1, nav .nav-link, nav .nav-link:hover, nav .nav-link.active, main.container,
+ section h2, .img-fluid, form#submitForm, form#submitForm input, form#submitForm textarea, form#submitForm input:focus,
+  form#submitForm textarea:focus, form#submitForm button, form#submitForm button:hover, footer
+
+ JavaScript:
+ e.preventDefault() prevents page reload when a link is clicked.
+Adds .active class to the section with the matching id.
+Hides all other sections (section { display: none; } in CSS). And for validation for form
+
+
+ Bootstrap:
+ Styling and Layout and Class in html for degin
